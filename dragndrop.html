@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="with=device-width, initital-scale=1.0">
+      <title>Tech LIT! - Learn, Interact, Teach</title>
+      <link rel="icon" type="image/techlitlogofinal.png" href="/images/favicon.ico">
+    <link rel="stylesheet" href="dragndrop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <section class="header">
+    <nav>
+        <a href="index.html"><img src="images/techlitlogofinal.png"> </a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html"> HOME</a></li>
+                <li><a href="about.html"> ABOUT</a></li>
+                <li><a href="browse-media.html"> COURSES </a></li>
+                <li><a href="recommended.html">ACTIVITIES</a></li>
+                <li><a href="contact.html"> CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    </section>
+            <h1 color="black">Lesson 1: COMP-PROG Matching Game</h1>
+            <p  color="black">Drag the correct term over to the matching definition.
+              <br> Don't be pressured! Think deeply and consider this as a practice!
+            </p>
+          
+            <div id="dndQuiz1">
+            <main class="container">
+              <div>
+                <ul class="draggable-list">
+                  <li class="dragndropli" id="e1" draggable="true">HTML</li>
+                  <li class="dragndropli" id="e2" draggable="true">Ada Lovelace</li>
+                  <li class="dragndropli" id="e3" draggable="true">FORTRAN</li>
+                  <li class="dragndropli" id="e4" draggable="true">C LANGUAGE</li>
+                  <li class="dragndropli" id="e5" draggable="true">Assembly Language</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="draggable-list">
+                  <li class="dragndropli" id="s5" draggable="true">simplifies machine code language</li>
+                  <li class="dragndropli" id="s1" draggable="true">Hypertext Markup Language</li>
+                  <li class="dragndropli" id="s4" draggable="true">created by Dennis Ritchie</li>
+                  <li class="dragndropli" id="s3" draggable="true">designed by John Backus</li>
+                  <li class="dragndropli" id="s2" draggable="true">First programmer</li>
+                </ul>
+              </div>
+
+          
+            <div id="endMessage">
+              <h3>WELL DONE!</h3>
+              <h3>Check the terms:</h3>
+              <table>
+                <tr>
+                  <th>Term</th>
+                  <th>Definition</th>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>Hypertext Markup Language</td>
+                </tr>
+                <tr>
+                  <td>Ada Lovelace</td>
+                  <td>First programmer</td>
+                </tr>
+                <tr>
+                  <td>FORTRAN</td>
+                  <td>designed by John Backus</td>
+                </tr>
+                <tr>
+                  <td>C LANGUAGE</td>
+                  <td>created by Dennis Ritchie</td>
+                </tr>
+                <tr>
+                  <td>Assembly Language</td>
+                  <td>simplifies machine code language</td>
+                </tr>
+              </table>
+          
+              <button class="dragndropbt" onclick="playAgain()">Play Again</button>
+              <button class="dragndropbt"><a href="home.html">Go Back</a></button>
+            </div>
+          
+            <script src="dragndrop.js"></script>
+                </div>
+            </div>
+
+
+</body>
+</html>
